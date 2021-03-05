@@ -19,7 +19,7 @@ public class Analise {
     System.out.println(format("ss.SSS", System.currentTimeMillis() - iniTime));
   }
 
-  public static void hasDups2(List<Integer> list){
+  public static void hasDups2(List<Integer> list) {
     // como hashMap usa uma chave parar um valor, e ele é unico
     // podemos ver se cada elemento da list existe no map, senao
     // adicionalo
@@ -59,7 +59,7 @@ public class Analise {
 
   public static String format(String shape, long currentTimeMillis) {
     return new SimpleDateFormat(shape, Locale.getDefault()).format(currentTimeMillis);
-}
+  }
 
   public static List<Integer> fileReader(String file_name) {
     List<Integer> list = new ArrayList<>();
